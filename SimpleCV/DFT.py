@@ -1,5 +1,5 @@
 from SimpleCV.base import np, warnings
-from SimpleCV.ImageClass import Image
+#~ from SimpleCV.Image import Image
 
 class DFT:
     """

@@ -2,7 +2,9 @@
 
 #load system libraries
 from SimpleCV.base import *
-from SimpleCV.ImageClass import Image, ImageSet, ColorSpace
+#~ from SimpleCV.ImageClass import Image, ImageSet, ColorSpace
+from SimpleCV.Image import Image, ImageSet
+#~ from SimpleCV.Image import ColorSpace
 from SimpleCV.Display import Display
 from SimpleCV.Color import Color
 from collections import deque

@@ -2,7 +2,7 @@ from SimpleCV.base import *
 from SimpleCV.Features import Feature, FeatureSet, BlobMaker
 from SimpleCV.ColorModel import ColorModel
 from SimpleCV.Color import Color
-from SimpleCV.ImageClass import Image
+from SimpleCV.Image import Image
 from SimpleCV.Segmentation.SegmentationBase import SegmentationBase
 
 class ColorSegmentation(SegmentationBase):

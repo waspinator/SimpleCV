@@ -303,6 +303,6 @@ class BlobMaker:
 
 
 
-from SimpleCV.ImageClass import Image
+#~ from SimpleCV import Image
 from SimpleCV.Features.Features import FeatureSet
 from SimpleCV.Features.Blob import Blob

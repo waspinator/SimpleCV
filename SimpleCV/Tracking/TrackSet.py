@@ -1,7 +1,7 @@
 from SimpleCV.Color import Color
 from SimpleCV.base import time, cv, np
 from SimpleCV.Features.Features import Feature, FeatureSet
-from SimpleCV.ImageClass import Image
+#~ from SimpleCV.Image import Image
 
 
 class TrackSet(FeatureSet):

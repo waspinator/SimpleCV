@@ -1,5 +1,5 @@
 from SimpleCV.base import *
-import SimpleCV.ImageClass
+import SimpleCV.Image
 import Queue
 from base import *
 

@@ -1,7 +1,7 @@
 # Load required libraries
 from SimpleCV.base import *
 from SimpleCV.Color import *
-from SimpleCV.LineScan import *
+#~ from SimpleCV.LineScan import *
 from numpy import int32
 from numpy import uint8
 

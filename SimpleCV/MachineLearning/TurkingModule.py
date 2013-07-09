@@ -1,4 +1,5 @@
 from SimpleCV import Display, Image, Color, ImageSet
+from SimpleCV import Display, Color
 import os
 import os.path as osp
 import time

@@ -12,7 +12,7 @@ the right hand rule.
 
 #load required libraries
 from SimpleCV.base import *
-from SimpleCV.ImageClass import *
+from SimpleCV.Image import *
 from SimpleCV.Color import *
 from SimpleCV.Features.Features import Feature, FeatureSet
 

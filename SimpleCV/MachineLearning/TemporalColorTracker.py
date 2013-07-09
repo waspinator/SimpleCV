@@ -1,4 +1,5 @@
-from SimpleCV import Image, ImageSet, Camera, VirtualCamera, ROI, Color, LineScan
+#~ from SimpleCV import Image, ImageSet, Camera, VirtualCamera, ROI, Color, LineScan
+from SimpleCV import Camera, VirtualCamera, ROI, Color
 import numpy as np
 import scipy.signal as sps
 import warnings

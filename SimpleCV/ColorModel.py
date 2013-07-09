@@ -1,7 +1,7 @@
 # SimpleCV Color Model Library
 #load required libraries
 from SimpleCV.base import *
-from SimpleCV.ImageClass import *
+from SimpleCV.Image import *
 
 
 class ColorModel:

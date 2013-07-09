@@ -5,7 +5,7 @@
 #load required libraries
 import random
 from SimpleCV.base import *
-from SimpleCV.ImageClass import *
+#~ from SimpleCV.ImageClass import *
 
 
 class Color:

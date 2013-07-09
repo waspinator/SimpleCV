@@ -1,7 +1,7 @@
 from SimpleCV.base import *
 from SimpleCV.Features.Features import Feature, FeatureSet
 from SimpleCV.Color import Color
-from SimpleCV.ImageClass import Image
+#~ from SimpleCV import Image
 from SimpleCV.Features.Detection import ShapeContextDescriptor
 import math
 import scipy.stats as sps
@@ -1429,4 +1429,5 @@ class Blob(Feature):
             return features
 
 
+#~ from SimpleCV.Image import Image
 from SimpleCV.Features import Line, Corner
