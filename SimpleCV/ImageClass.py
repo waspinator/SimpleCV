@@ -5,6 +5,7 @@ from SimpleCV.LineScan import *
 from numpy import int32
 from numpy import uint8
 import cv2
+import re
 
 from EXIF import *
 
@@ -99,6 +100,20 @@ class ImageSet(list):
             self.load(directory)
         else:
             self.load(directory)
+
+
+    def atoi(text):
+        return int(text) if text.isdigit() else text
+    
+    def natural_keys(text):
+        '''
+        alist.sort(key=natural_keys) sorts in human order
+        http://nedbatchelder.com/blog/200712/human_sorting.html
+        (See Toothy's implementation in the comments)
+        '''
+        return [ atoi(c) for c in re.split('(\d+)', text) ]
+
+
 
     def download(self, tag=None, number=10, size='thumb'):
         """
@@ -606,6 +621,8 @@ class ImageSet(list):
                 file_set = sorted(file_set)
             if( sort_by.lower() == "size"):
                 file_set = sorted(file_set,key=os.path.getsize)
+            if( sort_by.lower() == "natural_name"):
+                file_set = sorted(file_set,key=self.natural_keys)
 
         self.filelist = dict()
 
